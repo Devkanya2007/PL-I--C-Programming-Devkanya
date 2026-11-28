@@ -18,4 +18,12 @@ int main()
     printf("Address of num = %p\n", (void *)ptr);
 
     return 0;
+
+Using Normal Variable:
+Value of num = 100
+Address of num = 0x7fffe43eb804
+
+Using Pointer:
+Value of num = 100
+Address of num = 0x7fffe43eb804
 }
